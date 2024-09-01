@@ -1,0 +1,11 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: swagger
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  swagger-ui-config-url: /v3/api-docs/swagger-config
